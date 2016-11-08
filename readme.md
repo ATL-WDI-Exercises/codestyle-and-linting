@@ -3,6 +3,9 @@
 Your mission is to clean up ugly JavaScript code. First use `node` to run `friends.js` and see that it runs correctly, but it's ***ugly***. Then edit the file `friends.js` and test it using `eslint`:
 
 ```bash
+cd ~/ga/wdi
+git clone https://github.com/ATL-WDI-Exercises/codestyle-and-linting
+cd codestyle-and-linting
 npm install
 node friends.js
 ./node_modules/.bin/eslint friends.js
